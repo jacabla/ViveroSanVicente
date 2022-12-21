@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import bulma from 'bulma/css/bulma.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<div class="container">
+  <div class="card-image">
+    <figure class="image is-10by10">
+      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-1x1">
+          <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image"/>
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title ">John Smith</p>
+        <p class="subtitle">@johnsmith</p>
+      </div>
     </div>
+
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+      <a href="#">#css</a> <a href="#">#responsive</a>
+      <br/>
+      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+    </div>
+  </div>
+</div>
   );
 }
 
