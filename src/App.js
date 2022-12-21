@@ -16,7 +16,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 1000);
   }, []);
   return (
     <div className="spinner">
@@ -36,8 +36,8 @@ function App() {
           <Route path="Content" element={<Content></Content>} /> 
             <Route path="Contact" element={<Contact></Contact>} />
             <Route path="Hero" element={<Hero></Hero>} />
-            <Route path="Footer" element={<Footer></Footer>} />
           </Routes>
+          <Footer></Footer>
         </div>
       )}
     </div>
