@@ -1,3 +1,30 @@
 .nombre{
     text-decoration: none;
 }
+
+.menuVivero{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    list-style: none;
+
+}
+
+.menuVivero li{
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.menuVivero span{
+    padding-right: 5px;
+    align-items: center;
+}
+
+.viveroImg{
+    width: 100px;
+    height: auto;
+}

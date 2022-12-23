@@ -9,6 +9,10 @@ import { Routes, Route } from "react-router-dom";
 import { ScaleLoader } from "react-spinners";
 import { useState, useEffect } from "react";
 import "./components/styles/LoadingSpinner.css";
+import Accesorios from "./components/HeroSubComponents/Accesorios";
+import Colgantes from "./components/HeroSubComponents/Colgantes";
+import Ornamentales from "./components/HeroSubComponents/Ornamentales";
+import Suculentas from "./components/HeroSubComponents/Suculentas";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -36,6 +40,10 @@ function App() {
           <Route path="Content" element={<Content></Content>} /> 
             <Route path="Contact" element={<Contact></Contact>} />
             <Route path="Hero" element={<Hero></Hero>} />
+            <Route path="Accesorios" element={<Accesorios></Accesorios>}></Route>
+            <Route path="Colgantes" element={<Colgantes></Colgantes>}></Route>
+            <Route path="Ornamentales" element={<Ornamentales></Ornamentales>}></Route>
+            <Route path="Suculentas" element={<Suculentas></Suculentas>}></Route>
           </Routes>
           <Footer></Footer>
         </div>

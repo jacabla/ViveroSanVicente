@@ -1,6 +1,5 @@
 import React from "react";
 import bulma from "bulma/css/bulma.css";
-import FooterStyle from "./styles/FooterStyle.css";
 import Iframe from "react-iframe";
 
 export default function Footer() {
@@ -32,7 +31,7 @@ export default function Footer() {
             <article className="tile is-child notification is-warning">
               <p className="title">Comunicate via whatsapp</p>
               <p className="subtitle">
-                <a href="https://wa.me/50685479498" target="_blank">
+                <a href="https://wa.me/50685479498" target="_blank" rel="noreferrer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -70,7 +69,7 @@ export default function Footer() {
               <a
                 className="nombre"
                 href="https://www.linkedin.com/in/jason-castro-blanco/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <p>
                   <svg
@@ -89,7 +88,7 @@ export default function Footer() {
               <a
                 className="nombre"
                 href="https://github.com/jacabla"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <p>
                   <svg
@@ -108,7 +107,7 @@ export default function Footer() {
               <a
                 className="nombre"
                 href="https://www.instagram.com/jasoncastroblanco/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <p>
                   <svg
