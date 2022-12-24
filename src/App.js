@@ -37,9 +37,9 @@ function App() {
             <Route path="/" element={<Content></Content>} />
           </Routes>
           <Routes>
-          <Route path="Content" element={<Content></Content>} /> 
+            <Route path="Content" element={<Content></Content>} />
             <Route path="Contact" element={<Contact></Contact>} />
-            <Route path="Hero" element={<Hero></Hero>} />
+            <Route path="Hero" element={<Suculentas></Suculentas>} />
             <Route path="Accesorios" element={<Accesorios></Accesorios>}></Route>
             <Route path="Colgantes" element={<Colgantes></Colgantes>}></Route>
             <Route path="Ornamentales" element={<Ornamentales></Ornamentales>}></Route>
